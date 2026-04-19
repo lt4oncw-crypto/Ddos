@@ -1,0 +1,197 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Premium Network Stress Testing and Protection Services. Secure your infrastructure against advanced DDoS threats.">
+    <title>VOID | Premium Network Resilience</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;800&family=JetBrains+Mono:wght@400;700&display=swap" rel="stylesheet">
+</head>
+<body class="dark-theme">
+    <div class="scanline"></div>
+    <div class="noise-overlay"></div>
+
+    <header id="main-nav">
+        <div class="container">
+            <div class="logo">
+                <span class="glitch" data-text="VOID">VOID</span>
+            </div>
+            <nav>
+                <ul>
+                    <li><a href="#hero">Dashboard</a></li>
+                    <li><a href="#stats">Live Feed</a></li>
+                    <li><a href="#features">Capabilities</a></li>
+                    <li><a href="#pricing">Plans</a></li>
+                </ul>
+            </nav>
+            <div class="nav-actions">
+                <button class="btn btn-outline" id="login-btn">Secure Login</button>
+            </div>
+        </div>
+    </header>
+
+    <main>
+        <section id="hero">
+            <div class="hero-bg" id="hero-canvas"></div>
+            <div class="container">
+                <div class="hero-content">
+                    <div class="badge neon-text">SYSTEM STATUS: OPTIMAL</div>
+                    <h1 class="hero-title">Dominate the <span class="gradient-text">Network Layer</span></h1>
+                    <p class="hero-subtitle">Industrial-grade stress testing for infrastructure resilience. Bypass limitations and secure your assets with VOID's advanced packet distribution.</p>
+                    <div class="hero-btns">
+                        <button class="btn btn-primary btn-glow" id="cta-start">Deploy Sequence</button>
+                        <button class="btn btn-secondary" id="cta-docs">Documentation</button>
+                    </div>
+                </div>
+                <div class="hero-visual">
+                    <div class="terminal-window">
+                        <div class="terminal-header">
+                            <div class="dot red"></div>
+                            <div class="dot yellow"></div>
+                            <div class="dot green"></div>
+                            <span class="terminal-title">stress_test.sh — 80x24</span>
+                        </div>
+                        <div class="terminal-body" id="terminal-output">
+                            <p class="line"><span class="prompt">$</span> initializing void_engine.v3...</p>
+                            <p class="line"><span class="prompt">$</span> handshaking with 128 global nodes... <span class="success">[OK]</span></p>
+                            <p class="line"><span class="prompt">$</span> target identified: 192.168.1.1 (MOCK)</p>
+                            <p class="line"><span class="prompt">$</span> selecting method: L7_BYPASS_GEN2</p>
+                            <p class="line cursor-line">_</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="stats">
+            <div class="container">
+                <div class="stats-grid">
+                    <div class="stat-card" id="stat-active">
+                        <div class="stat-label">Active Deployments</div>
+                        <div class="stat-value neon-text" id="val-active">422</div>
+                        <div class="stat-trend">+12% vs last hour</div>
+                    </div>
+                    <div class="stat-card" id="stat-nodes">
+                        <div class="stat-label">Global Node Mesh</div>
+                        <div class="stat-value neon-text" id="val-nodes">1,024</div>
+                        <div class="stat-trend">Status: Online</div>
+                    </div>
+                    <div class="stat-card" id="stat-throughput">
+                        <div class="stat-label">Network Throughput</div>
+                        <div class="stat-value neon-text" id="val-throughput">2.4 TB/s</div>
+                        <div class="stat-trend">Peak: 4.8 TB/s</div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="features">
+            <div class="container">
+                <div class="section-header">
+                    <h2 class="section-title">Network Capabilities</h2>
+                    <p class="section-desc">Engineered for maximum penetration and infrastructure validation.</p>
+                </div>
+                <div class="features-grid">
+                    <div class="feature-card glass">
+                        <div class="feature-icon">⚡</div>
+                        <h3>Layer 4 Dominance</h3>
+                        <p>High-affinity UDP/TCP flood vectors optimized for any firewall bypass.</p>
+                    </div>
+                    <div class="feature-card glass">
+                        <div class="feature-icon">🌐</div>
+                        <h3>Layer 7 Precision</h3>
+                        <p>Advanced HTTP/HTTPS request distribution mimicking real user behavior.</p>
+                    </div>
+                    <div class="feature-card glass">
+                        <div class="feature-icon">🛡️</div>
+                        <h3>Anti-DDoS Shield</h3>
+                        <p>We don't just test; we protect. Enterprise mitigation services included.</p>
+                    </div>
+                    <div class="feature-card glass">
+                        <div class="feature-icon">📡</div>
+                        <h3>API Integration</h3>
+                        <p>Full RESTful API for seamless integration into your existing security stack.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="pricing">
+            <div class="container">
+                <div class="section-header">
+                    <h2 class="section-title">Investment Tiers</h2>
+                </div>
+                <div class="pricing-grid">
+                    <div class="price-card glass" id="plan-basic">
+                        <div class="plan-name">Initiate</div>
+                        <div class="plan-price">$29<span>/mo</span></div>
+                        <ul class="plan-features">
+                            <li>600s Attack Time</li>
+                            <li>3 Concurrent Tests</li>
+                            <li>L4 Methods Only</li>
+                            <li>Community Support</li>
+                        </ul>
+                        <button class="btn btn-outline" id="buy-basic">Select Tier</button>
+                    </div>
+                    <div class="price-card featured glass" id="plan-advanced">
+                        <div class="popular-tag">MOST POPULAR</div>
+                        <div class="plan-name">Operator</div>
+                        <div class="plan-price">$89<span>/mo</span></div>
+                        <ul class="plan-features">
+                            <li>1800s Attack Time</li>
+                            <li>10 Concurrent Tests</li>
+                            <li>L4 & L7 Access</li>
+                            <li>Priority Support</li>
+                        </ul>
+                        <button class="btn btn-primary" id="buy-advanced">Select Tier</button>
+                    </div>
+                    <div class="price-card glass" id="plan-enterprise">
+                        <div class="plan-name">Executive</div>
+                        <div class="plan-price">$249<span>/mo</span></div>
+                        <ul class="plan-features">
+                            <li>Unlimited Attack Time</li>
+                            <li>50 Concurrent Tests</li>
+                            <li>All Bypass Methods</li>
+                            <li>Dedicated Node Ops</li>
+                        </ul>
+                        <button class="btn btn-outline" id="buy-enterprise">Select Tier</button>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer id="main-footer">
+        <div class="container">
+            <div class="footer-top">
+                <div class="footer-brand">
+                    <span class="logo">VOID</span>
+                    <p>Next-generation network stress testing infrastructure.</p>
+                </div>
+                <div class="footer-links">
+                    <div class="link-group">
+                        <h4>Resources</h4>
+                        <ul>
+                            <li><a href="#">API Docs</a></li>
+                            <li><a href="#">Status</a></li>
+                            <li><a href="#">Network Map</a></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2026 VOID Network Solutions. All rights reserved.</p>
+                <div class="legal">
+                    <a href="#">Terms of Service</a>
+                    <a href="#">Privacy Policy</a>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
